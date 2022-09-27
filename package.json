@@ -1,6 +1,6 @@
 {
-"name": "4mn",
-  "version": "0.0.1",
+  "name": "4mn",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
@@ -20,7 +20,6 @@
     "release": "standard-version -a",
     "postrelease": "git push --follow-tags origin main & yarn publish --non-interactive"
   },
-
   "devDependencies": {
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "3.3.0",
